@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-ES" lang="es-ES">
 <head>
-<title>Hr ESTUDIO DE INTERIORISMO & INMOBILIARIA</title>
+<title>Hr ESTUDIO DE INTERIORISMO & INMOBILIARIA</title> 
 <link rel="shortcut icon" href="images/favicon.ico">
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">  <meta http-equiv="X-UA-Compatible" content="IE=9, IE=8">
 <link rel="stylesheet" type="text/css" href="css/style.css" />
