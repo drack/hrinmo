@@ -60,7 +60,8 @@ body{padding-top: 20px}
 		
 		#menu ul { margin-left: 61px; padding: 35px 0px 10px; }
 		#menu ul li {margin:5px; list-style: none; float:left; cursor: pointer; display: none;}
-
+		a.twitter {margin: 0px 0 0 5px; color: #6b6b6b; text-decoration: none; position: absolute; background-image: url(../images/twitter.png);background-repeat: no-repeat;background-position: left center; padding-left: 20px}
+		.datosContacto a.twitter {color: #FFF; background-image: url(../images/twitter-b.png)}
 		
 		#logos{
 			width:203px;	
@@ -148,7 +149,7 @@ body{padding-top: 20px}
 		.buscadorViviendas  {width: 420px; height: 385px;  background-color: #6b6b6b; float: right;}
 		
 		.datosContacto {width: 550px; height: 475px; background-color: #6b6b6b; color:#FFF; padding: 20px 20px 5px 20px; margin: 0px;  float: left;}
-		.datosContacto span {width: 100px; height: 20px;  padding: 10px 20px; color:#FFF;margin: 0px auto; text-align: center;  background-repeat: no-repeat; background-position: left top; display: block; }
+		.datosContacto span {width: 250px; height: 20px;  padding: 10px 20px; color:#FFF;margin: 0px auto; text-align: center;  background-repeat: no-repeat; background-position: left top; display: block;  }
 		.contContacto {width: 520px; height: 400px; margin: 0px auto; padding-right: 20px; border: 0px; overflow: hidden; }
 		
 		#seccionInmobiliaria, #seccionEstudio, #menuInmobiliaria, #menuEstudio {display: none}

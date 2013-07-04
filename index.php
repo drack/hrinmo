@@ -71,6 +71,7 @@ jQuery.extend(jQuery.expr[":"], {
 					<li id="btn02" class="btn">Home Staging</li>
 					<li id="btn03" class="btn">Proyectos</li>
 					<li id="btn04" class="btn">Contacto</li>
+					<li><a class="twitter" href="https://twitter.com/HRinmo" tittle="twitter de hrinmo" target="_blank">@hrinmo</a></li>
 				</ul>			
 		</div>
 <!-- Fin Menu -->
@@ -232,7 +233,8 @@ jQuery.extend(jQuery.expr[":"], {
 								</div>
 					 	    </fieldset>
 					 	 </form>
-					 	 <span>917 507 376</span>
+					 	 <span>917 507 376 - <a class="twitter" href="https://twitter.com/HRinmo" tittle="twitter de hrinmo" target="_blank">@hrinmo</a>
+</span>
 				</div>
 				<div class="imgPresentacion01"><img src="images/contacto.jpg" width="420" height="500" /></div>			
 			</div>

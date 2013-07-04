@@ -44,7 +44,8 @@ $(document).ready(function(){
 				break;	
 				case 'btn04':		
 					$("#seccion04").fadeIn(300);
-				break;					
+				break;
+					
 			}
 		});
 		
