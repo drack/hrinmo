@@ -1,0 +1,131 @@
+/* Estilos Base */
+
+
+fieldset {
+	border: 0px;
+}
+
+/* Estilos del formulario */
+form.contacto {
+    margin: 25px auto 0;
+    width: 500px;
+    border: 0px;
+}
+
+.imgPresentacion01 form.contacto {
+    margin: 0;
+    width: 420px;
+}
+
+form.contacto fieldset > div {
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 0px;
+}
+
+.imgPresentacion01 form.contacto fieldset {
+margin: 0px; 
+padding:0px; 
+}
+
+.imgPresentacion01 form.contacto fieldset > div {
+    margin-bottom: 0px;
+}
+
+form.contacto fieldset div label {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+    text-align: right;
+    width: 84px;
+    color: #FFF;
+}
+.imgPresentacion01 form.contacto fieldset div label {
+
+    text-align: left;
+    width: 84px;
+    color: #6B6B6B;
+}
+
+
+
+form.contacto input[type="text"], form.contacto textarea {
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    color: #626262;
+    display: block;
+    float: left;
+    padding: 4px 8px;
+    resize: none;
+    width: 350px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+}
+.imgPresentacion01 form.contacto input[type="text"], .imgPresentacion01 form.contacto textarea {
+	width: 402px;
+}
+
+form.contacto input[type="text"]:focus, form.contacto textarea:focus {
+	background: #F9F9F9;
+	border: 1px solid #D3D3D3;
+	outline: none;
+}
+form.contacto .ultimo{
+    margin-bottom: 0;
+    position: relative
+}
+form.contacto input[type="button"] {
+	background: #6b6b6b;
+	
+    border: 0 none;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    height: 32px;
+    padding: 0 10px;
+    position: relative;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	margin-right: 15px;
+		cursor: pointer;
+
+}
+.imgPresentacion01 form.contacto input[type="button"] { 
+	margin-right: 0px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+
+form.contacto input[type="button"]:hover{
+	background: #666;
+		cursor: pointer;
+
+}
+
+/* AJAX Gif y mensajes de exito o fracaso */
+.hide{
+	display: none;
+}
+
+.msg{
+    color: #FFF;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    position: absolute;
+	right: 0px;
+	min-width: 121px;
+}
+.imgPresentacion01 .msg{
+ color: #6B6B6B;
+}
+
+
+.msg_ok{
+}
+.msg_error{
+}

@@ -1,0 +1,162 @@
+body{padding-top: 20px}
+@font-face {
+    font-family: 'BrowalliaNewRegular';
+    src: url('../fonts/browa-webfont.eot');
+    src: url('../fonts/browa-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/browa-webfont.woff') format('woff'),
+         url('../fonts/browa-webfont.ttf') format('truetype'),
+         url('../fonts/browa-webfont.svg#BrowalliaNewRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#home {cursor: pointer; width: 1020px;}
+#telefono {float:right;
+	margin-top: 15px;
+}
+#home, #menuHome {z-index: 0; position: absolute;}
+.contenedor { position: absolute; display: none;}
+
+
+
+
+.proyecto {position: relative}
+.imagenes  {width: 485px; height: 525px; display: block; float: left; margin: 0px; padding: 0px;}
+.imagenes img { position: absolute;  }
+.proyecto .texto  {width: 485px; height: auto; display: block; float: right; background-color: #6b6b6b; color:#FFF; padding: 20px 20px 5px 20px; margin-left: 10px; }
+.proyecto .texto p { padding: 0px; margin: 0px 0px 15px 0px; }
+.proyecto .titulo {width:300px;  height: 50px;  position: fixed; margin: 492px 0px 0px 495px; color:#6b6b6b;}
+
+
+
+#viviendasInmobiliaria {z-index: 100; width: 1020px;  position: absolute; display: none;}
+#viviendasInmobiliaria iframe {width: 1000px !important;  height: 800px;}
+#viviendasInmobiliaria iframe #divPropertyList {width: 1000px !important;}
+
+
+#contactoInmobiliaria {z-index: 110; position: absolute; display: none;}
+
+#seccionEstudio2 {z-index: 115; position: absolute; display: none;}
+#proyectosEstudio {z-index: 120; position: absolute; display: none;}
+#contactoEstudio {z-index: 130; position: absolute; display: none;}
+#proyectosEstudioViviendas {z-index: 140; position: absolute; display: none; }
+.estudioViviendas {position: relative}
+
+		body {font-family: BrowalliaNewRegular, arial; padding: 0px; margin: 0px; font-size: 18px; line-height: 18px;}
+
+		#general {
+			width:1020px;	
+			height: auto;
+			padding: 20px;
+			margin: 0px auto 0px auto;
+			}
+		#menu {
+			width:1020px;	
+			background-image: url(../images/logo.jpg);
+			background-repeat: no-repeat;
+			border-bottom: 1px solid #6b6b6b;
+			color: #6b6b6b;
+		}
+		
+		#menu ul { margin-left: 61px; padding: 35px 0px 10px; }
+		#menu ul li {margin:5px; list-style: none; float:left; cursor: pointer; display: none;}
+
+		
+		#logos{
+			width:203px;	
+			height: 39px;
+			position: absolute;
+			z-index: 900;
+			margin: -50px 0px 0px 280px;
+		}
+		#logoInmo {z-index: 910; display: none}		
+		#logoEstu {z-index: 920; display: none}		
+		
+		#cuerpo {
+			width:auto;	
+			height: 550px;
+			margin-top: 10px
+			
+		}
+		.contenedor {
+			width:1020px;	
+			height: auto;
+		}		
+		
+		#home ul {
+			width:485px;	
+			height: 525px;
+			padding: 0px !important;	
+		}
+		#home ul li {
+			list-style: none;
+		}
+		
+		#btnEst {margin-left: 85px;}
+		#estudio { float:right}
+		#medidas {display: none; float: right; font-weight: normal; margin-left: 10px;}
+		#inmobiliaria { float:left}
+		#inmobiliaria li, #estudio li { position: absolute;}
+		.imgInmo img, .imgEstu img  {display:none}
+		
+		.btnHome {
+			margin: 0px 20px 0px 0px;
+			float: left}
+
+		
+		.menuSup {
+			width:auto;	
+			height: 20px;
+			font-size: 20px;
+			margin-left:57px;
+		}
+		#menuHome div {
+			width:200px;	
+			height: 20px;
+			float: left;
+			margin-bottom: -10px;
+		}
+		#btnEst {margin-left: 0px !important;}
+		
+		.subMenu { float: left; margin: 0px; padding: 0px;}
+		.subMenu li { float: left; margin: 0px 5px; padding: 0px 5px; cursor: pointer; list-style: none;}
+		.subMenu li:hover, #menu span:hover { color:#6b6b6b;   }
+		
+		#menu span {cursor: pointer;}
+		
+		.textoPresentacion01 {width: 550px; height: 475px;  background-color: #6b6b6b; color:#FFF; padding: 20px 20px 5px 20px;  float: left;}
+		.textoPresentacion02 {width: 550px;   background-color: #6b6b6b; color:#FFF; padding: 20px 20px 5px 20px;  float: left;}
+		.textoPresentacion01 p,.textoPresentacion02 p { padding: 0px; margin: 0px 0px 15px 0px; }
+		
+		.imgPresentacion01  {width: 420px; height: 370px;   float: right;}
+		.imgProyectosEstudioVivienda01  {width: 485px; height: 525px; display: block; float: left; margin: 0px; padding: 0px;}
+		.txtProyectosEstudioVivienda01  {width: 485px; height: auto; display: block; float: right; background-color: #6b6b6b; color:#FFF; padding: 20px 20px 5px 20px; margin-left: 10px; }
+		.imgProyectosEstudioVivienda01 img { position: absolute;  }
+		.imgTipo { background-color: #FFF;}
+		.tituloVivienda01 {width:300px;  height: 50px;  position: fixed; margin: 492px 0px 0px 495px; color:#6b6b6b;}
+		.txtProyectosEstudioVivienda01 p { padding: 0px; margin: 0px 0px 15px 0px; }
+
+		
+		#galeria {position: absolute;  width: 1020px; height: auto;}
+		#galeria { height: auto;  float: left; margin: 0px; padding: 0px;  }
+		#galeria li {width: 181px; height: 181px; border: 2px solid #6b6b6b; margin: 11px 23px 12px 0px; padding: 0px;  float: left; background-color: #6b6b6b; list-style: none; border: 1px solid red; border: none !important;width: 185px !important; height: 185px  !important; background-color: #FFF !important;}
+		#galeria li.ultima {margin-right: 0px !important; }
+		#galeria li:hover {border: none !important; cursor: pointer}
+		#galeria li:hover img {opacity: 0.5}
+
+		#galeria li:hover {border: 2px solid #666; }
+		.buscadorViviendas  {width: 420px; height: 385px;  background-color: #6b6b6b; float: right;}
+		
+		.datosContacto {width: 550px; height: 475px; background-color: #6b6b6b; color:#FFF; padding: 20px 20px 5px 20px; margin: 0px;  float: left;}
+		.datosContacto span {width: 100px; height: 20px;  padding: 10px 20px; color:#FFF;margin: 0px auto; text-align: center;  background-repeat: no-repeat; background-position: left top; display: block; }
+		.contContacto {width: 520px; height: 400px; margin: 0px auto; padding-right: 20px; border: 0px; overflow: hidden; }
+		
+		#seccionInmobiliaria, #seccionEstudio, #menuInmobiliaria, #menuEstudio {display: none}
+		
+		.controlesRep {width: 485px; height: 525px; position: absolute; z-index: 999;}
+		.contlIzq {width: 240px; height: 525px;  opacity: 0; float: left; background-image: url(../images/flechaIzq.png); background-repeat: no-repeat; background-position: left center; cursor: pointer;}
+		.contlDrch {width: 240px; height: 525px; opacity: 0; float: right; background-image: url(../images/flechaDrch.png); background-repeat: no-repeat; background-position: right center; cursor: pointer;}
+		.contlIzq:hover,.contlDrch:hover {opacity: 1;}
+		
+		
+		
